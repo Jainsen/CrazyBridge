@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#fff;
+    font-family: 'Source Code Pro', monospace;
+    height: 100vh;
+}
+
+.mainBox {
+    width: 720px;
+    height: 380px;
+    background: #808080;
+    color: #fff;
+    top: -6%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    box-shadow: 10px 20px 20px #808080;
+}
+
+    .mainBox input[id="Button1"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        background-color: #b61a1a;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+        top: -6%;
+        left: 50%;
+    }
+
+    .mainBox input[type="text"]{
+        border: none;
+        font-size: 16px;
+
+    }
+    .upper {
+        width: 1400px;
+        height: 110px;
+        background: #808080;
+        color: #fff;
+        top: -10%;
+        left: 49%;
+        position: absolute;
+        transform: translate(-50%, 50%);
+        box-sizing: border-box;
+        padding: 15px 80px;
+        box-shadow: 12px 20px 20px  #808080;
+    }
+
+    .upper h1{
+        top: 15px;
+        left: 170px;
+        position: absolute;
+        padding: 10px 20px;
+    }
+
+
+    .upper .ras {
+            width: 100px;
+            height: 100px;
+            top: 0px;
+            left:50px;
+    }

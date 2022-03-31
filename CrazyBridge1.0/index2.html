@@ -1,0 +1,92 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FRosbridge.aspx.cs" Inherits="RosbridgeGazebo.Modulo.FRosbridge" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src = "http://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style3 {
+            width: 39px;
+        }
+        .auto-style5 {
+            width: 30px;
+        }
+        .auto-style7 {
+            width: 5px;
+        }
+    </style> 
+    <link href="../CSS/masterRosbridge.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="upper">
+
+        <h1 calss="title1"> CRAZYBRIDGE</h1>
+        <img class="ras" src="../images/image0.png" />
+
+    </div>
+    <div class ="mainBox">
+        
+        <p>This aplication is the 1st version of CrazyBridge/Gazebo</p>
+        <script src="../index/index.js"></script>
+    
+        
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style3">COORDINATED</td>
+                   
+                    <td class="auto-style5">SPEEDS</td>
+                    
+                </tr>
+                <tr>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style3">X : 
+                    
+                        <input type="text" id="tbCx" name="name" size="10">
+                    
+                    <td class="auto-style5">X :
+                        <input type="text" id="tbVx" name="name" size="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style3">Y :
+
+                        <input type="text" id="tbCy" name="name" size="10">
+                    
+                    <td class="auto-style5">Y :
+                        <input type="text" id="tbVy" name="name" size="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style3">Z :
+
+                        <input type="text" id="tbCz" name="name" size="10">
+                    </td>
+                    <td class="auto-style5">Z :
+                        <input type="text" id="tbVz" name="name" size="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
+                </tr>
+                
+            </table>
+
+            <input type="button" value="SEND" onclick="readValues()">
+        </div>
+       
+    </form>
+</body>
+</html>
